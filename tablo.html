@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+
+<body>
+    
+    <table border="2px" Cellpadding="3px" Cellspacing="1px">
+        <colgroup>
+        <col style="background-color: aqua;">
+        <col span="2" style="background-color: pink;">
+        <col style="background-color: yellow;">
+        
+        </colgroup>
+        <caption>Mart 2022 Fiyat Tablosu</caption>
+        <thead>
+            <tr>
+                <th colspan="4">Honda</th>
+            </tr>
+            <tr>
+                <th>Sınıf</th>
+                <th>Model</th>
+                <th>Fiyat</th>
+                <th>İndirim Oranı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">Sedan</td>
+                <td> City 1.5L Elegance</td>
+                <td>382.200 TL</td>
+                <td rowspan="3" align="center"> %5   </td>
+            </tr>
+            <tr>
+                <td>City 1.5L Executive</td>
+                <td>639.400 TL</td>
+            </tr>
+            <tr>
+                <td>Accord 1.5 Executive+</td>
+                <td>856.100 TL</td>
+            </tr>
+            <tr>
+                <td>Jazz e:HEV Executive</td>
+                <td>556.800 TL</td>
+                <td rowspan="2" align="center">%10</td>
+            </tr>
+            <tr>
+                <td>Jazz e:HEV Crosstar</td>
+                <td>572.600 TL</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2">SUV/JEEP</td>
+                <td>HR-V e:HEV Style</td>
+                <td>740.000 TL</td>
+                <td rowspan="2" align="center">%5</td>
+            </tr>
+            <tr>
+                <td>CV-R 1.5 Executive+</td>
+                <td>922.500 TL</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
